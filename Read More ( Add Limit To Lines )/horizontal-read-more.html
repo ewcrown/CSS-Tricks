@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read More</title>
+    <style>
+        .column-wrap {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .columns {
+            --max-lines: 3;
+
+            border: 1px solid #000;
+            padding: 20px;
+            display: -webkit-box;
+            overflow: hidden;
+            --webkit-box-orient: vertical;
+            --webkit-line-clamp: var(--max-lines);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Vertical -->
+    <h1>Vertical</h1>
+    <div class="column-wrap">
+        <div class="columns">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro iure facere quod minus voluptates, officia
+            distinctio vero vitae sint quos est quaerat fugiat, soluta recusandae autem ex ipsam explicabo suscipit ad
+            ducimus aperiam esse nulla eius similique! Velit voluptate eligendi, blanditiis minus corporis consequuntur
+            quisquam voluptatibus dolor, omnis nihil
+        </div>
+        <div class="columns">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro iure facere quod minus voluptates, officia
+            distinctio vero vitae sint quos est quaerat fugiat, soluta recusandae autem ex ipsam explicabo suscipit ad
+            ducimus aperiam esse nulla eius similique! Velit voluptate eligendi, blanditiis minus corporis consequuntur
+            quisquam voluptatibus dolor, omnis nihilaperiam esse nulla eius similique! Velit voluptate eligendi,
+            blanditiis minus corporis consequuntur quisquam voluptatibus dolor, omnis nihil
+        </div>
+        <div class="columns">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro iure facere quod minus voluptates, officia
+            distinctio vero vitae sint quos est quaerat fugiat, soluta recusandae autem ex ipsam explicabo suscipit ad
+            ducimus aperiam esse nulla eius similique! Velit voluptate eligendi, blanditiis minus corporis consequuntur
+            quisquam voluptatibus dolor, omnis nihilaperiam esse nulla eius similique! Velit voluptate eligendi,
+            blanditiis minus corporis consequuntur quisquam voluptatibus dolor, omnis nihileius similique! Velit
+            voluptate eligendi, blanditiis minus corporis consequuntur quisquam voluptatibus dolor, omnis nihilaperiam
+            esse nulla eius similique! Velit voluptate eligendi, blanditiis minus corporis consequuntur quisquam
+            voluptatibus dolor, omnis nihileius similique! Velit voluptate eligendi, blanditiis minus corporis
+            consequuntur quisquam voluptatibus dolor, omnis nihilaperiam esse nulla eius similique! Velit voluptate
+            eligendi, blanditiis minus corporis consequuntur quisquam voluptatibus dolor, omnis nihil
+        </div>
+    </div>
+
+    <!-- Horizontal -->
+</body>
+
+</html>
